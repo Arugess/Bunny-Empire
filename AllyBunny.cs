@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+//This allows the ally bunny (AB) to track and attack enemies.//
+
 public class AllyBunny : MonoBehaviour
 {
 
@@ -29,14 +31,14 @@ public class AllyBunny : MonoBehaviour
 
     void UpdateTarget()
     {
-        //This finds the carrot 
+        //This finds the enemy 
         GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
         float sDist = Mathf.Infinity;
         GameObject nEnemy = null;
 
         foreach (GameObject enemy in enemies)
         {
-            //This finds the the carrot in relation to the enemy 
+            //This finds the the enemy in relation to the ally bunny
             float disToCarrot = Vector3.Distance(transform.position, enemy.transform.position);
 
             if (disToCarrot < sDist)
@@ -46,8 +48,8 @@ public class AllyBunny : MonoBehaviour
             }
         }
 
-        //If the new carrot is detected and the shortest distance is within the detection range
-        //the the enemy will target the new carrot
+        //If the new enemy is detected and the shortest distance is within the detection range
+        //then the ally will target the new enemy
         if (nEnemy != null && sDist <= abRange)
         {
             target = nEnemy.transform;
