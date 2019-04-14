@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This allows the player to spawn a fist to hit enemies and destroy itself on contact.//
+
 public class BunnyFist : MonoBehaviour
 {
     //Player fist
