@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This allows the camera to rotate up and down and from sidee to side.//
+
 public class CamScript : MonoBehaviour
 {
 
