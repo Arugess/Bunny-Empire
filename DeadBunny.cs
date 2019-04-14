@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This makes the body of an enemy fall over then destroy itself after 2 seconds.//
+
 public class DeadBunny : MonoBehaviour
 {
     Rigidbody theBody;
