@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This changes the text to show how many carrots the player currently has.//
+
 public class CarrotScore : MonoBehaviour
 {
     //Sets the carrot score and gets the text attached
