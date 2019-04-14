@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This shows the players health through text.//
+
 public class PHText : MonoBehaviour
 {
     public static int pHealth;
