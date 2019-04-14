@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This makes a 5 second delay before an ally can respawn.//
+
 public class AllyRespawn : MonoBehaviour
 {
     //set a bool to activate when the case for ally spawning 
