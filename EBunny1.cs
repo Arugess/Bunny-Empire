@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+//This controls the behavior of the enenmy bunnies.//
+//They will target carrots that have sprouted and move to destroy them.//
+//It also controls the damage they take from arrows.//
+
 public class EBunny1 : MonoBehaviour
 {
 
