@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This allows the player to purchase ally bunnies (AB) from the store.//
+//It also allows allies to respawn a short time after being killed.//
+
+
 public class ABStorage : MonoBehaviour
 {
     private bool pBuyingAB, abBought;
