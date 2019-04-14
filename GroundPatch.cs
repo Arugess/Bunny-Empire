@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This allows the player to plant carrots, and makes the carrots grow.//
+//When the player touches the carrots they gain more carrots to spend.//
+
 public class GroundPatch : MonoBehaviour
 {
 
