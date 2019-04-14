@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//This allows the player to click on buttons while they are pausing the game and locks the camera.//
+
 public class PauseMenu : MonoBehaviour
 {
     public Button resume, startMenu;
