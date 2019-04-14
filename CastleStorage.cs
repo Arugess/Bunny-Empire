@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This allows the player to purchase the castle upgrade.//
+
 public class CastleStorage : MonoBehaviour
 {
     private bool pBuyingCas, casBought;
