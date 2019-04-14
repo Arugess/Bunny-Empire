@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//This starts the main level.//
+//This script will also keep track of how many carrots a player has picked.//
+//It will generate enemies when a certain amount hve been obtained.//
+//the scritp will also cause the player to lose when too many carrots have been stolen.//
+
 public class MainLevelStuff : MonoBehaviour
 {
     public static bool moveCam, playerDied;
