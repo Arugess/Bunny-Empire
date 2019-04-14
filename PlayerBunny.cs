@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This controls the players character and allows them to teleport to the underground store.//
+
 public class PlayerBunny : MonoBehaviour
 {
     //These stats are for jump power, gravity, speed, camera/player rotation, 
