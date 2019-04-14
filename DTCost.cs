@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This shows much much a defense tower (DT) scosts to purchase.//
+
 public class DTCost : MonoBehaviour
 {
     public static int dtCost;
