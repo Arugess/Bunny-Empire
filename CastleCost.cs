@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This shows how much the castle upgrade costs to buy.//
+
 public class CastleCost : MonoBehaviour
 {
     private int castleCost;
