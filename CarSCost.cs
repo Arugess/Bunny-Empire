@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//This allows the player to puschase additional carrot storage.//
+//This changes how much the next upgrade will cost to purchase.//
 
 public class CarSCost : MonoBehaviour
 {
