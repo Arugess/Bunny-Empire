@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This makes sure that the game will pause in the background and makes the mouse cursor visible.//
+
 public class PicScript : MonoBehaviour
 {
     private bool canMove;
