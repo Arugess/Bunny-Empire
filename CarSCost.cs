@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This allows the player to puschase additional carrot storage.//
+
 public class CarSCost : MonoBehaviour
 {
     public static int csCost;
