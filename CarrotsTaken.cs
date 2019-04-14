@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This shows the number of carrots that have been taken by the enemy through text on the screen.//
 
 public class CarrotsTaken : MonoBehaviour
 {
