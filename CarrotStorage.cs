@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This allows the player to purchase additional carrot storage to increase the number ofcarrots they can hold.//
+
 public class CarrotStorage : MonoBehaviour
 {
     private bool pBuyingC, csBought;
