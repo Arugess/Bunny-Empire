@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This allows the player to purchase defense towers (DT) that spawn at certain points in the level.//
+
 public class DTowerStorage : MonoBehaviour
 {
     private bool pBuyingD, dtBought;
